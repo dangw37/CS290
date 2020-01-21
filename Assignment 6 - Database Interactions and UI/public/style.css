@@ -1,0 +1,45 @@
+body {
+    font-family: arial;
+}
+
+label {
+    width: auto;
+    display: inline-block;
+}
+
+input[type=submit] {
+    width: 100px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+fieldset {
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border: 2px groove threedface;
+}
+
+legend {
+    top: 1px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px;
+    border-top: none;
+    font-weight: bold;
+    border: solid 2px black;
+}
+
+legend span {
+    display: block;
+    margin: -20px;
+    background: #fff;
+    padding: 0px 20px;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
