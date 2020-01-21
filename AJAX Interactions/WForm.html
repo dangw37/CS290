@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Check the Weather</title>
+ </head>
+ <body>
+
+ 	<form id = "weather" method = "get">
+ 		<fieldset>
+
+ 			<legend> Please enter a zip code OR a city name to check the weather of that location.
+      </legend>
+ 			<br>
+ 			<legend> Zip code will be chosen if both fields are entered. </legend>
+
+ 			<fieldset>
+ 				<label> Zip Code: <input type = "number" name = "weather_zip" id = "zip_input"> </label>
+ 			</fieldset>
+
+ 			<fieldset>
+ 				<label> City Name: <input type = "text" name = "weather_city" id = "city_input"> </label>
+ 			</fieldset>
+
+ 			 <button id="weather_button" type="submit"> Submit </button>
+ 		</fieldset>
+
+ 	</form>
+
+ 	<div id = "weather_info">
+
+ 	<h3 id = "weather_announcement"></h3>
+
+ 	<span id = "location"> </span> <br>
+ 	<span id = "weather_description"> </span> <br>
+ 	<span id = "current_temperature"> </span> <br>
+ 	<span id = "pressure"> </span> <br>
+ 	<span id = "humidity"> </span> <br>
+ 	<span id = "wind_speed"> </span> <br>
+
+ 	</div>
+
+	<script src="WScript.js"></script>
+ </body>
+</html>
