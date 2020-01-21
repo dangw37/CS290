@@ -1,0 +1,18 @@
+.scroll-boxy {
+  height: 500px;
+  overflow-y: auto;
+}
+
+.bg-img {
+  background: url('/img/about.jpg') top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+@gallery (max-width: 1300px) {
+  .bg-img {
+    background: url('/img/about.jpg') top center;
+    background-size: cover;
+  }
+}
